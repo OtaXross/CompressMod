@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:blasting",
+    "group": "Ars_Magna",
+    "ingredient": [
+    {
+      "item": "compressmod:compressed_charcoal5"
+    },
+    {
+        "item": "compressmod:compressed_coal5"
+    },
+    {
+        "item": "compressmod:compressed_obsidian5"
+    }
+    ],
+    "result": "compressmod:compressed_diamond2",
+    "experience": 729.0,
+    "cookingtime": 72900
+  }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressemod:compressed_cobblestone4"
+        }
+    },
+    "result": {
+        "item": "compressemod:compressed_cobblestone5"
+    }
+}

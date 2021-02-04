@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "compressmod:compressed_spruce_log5",
+        "compressmod:compressed_spruce_log5",
+        "compressmod:compressed_birch_log5",
+        "compressmod:compressed_acacia_log5",
+        "compressmod:compressed_dark_oak_log5"
+    ]
+}

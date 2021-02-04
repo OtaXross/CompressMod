@@ -1,0 +1,7 @@
+{
+	"parent": "compressmod:template_compressed_block",
+	"textures": {
+		"contain": "block/cobblestone",
+		"frame": "compressmod:block/tier_1_frame"
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_obsidian4"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_obsidian3",
+        "count": 9
+    }
+}
