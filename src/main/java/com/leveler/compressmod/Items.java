@@ -24,6 +24,7 @@ import java.util.List;
 public class Items extends CompressMod {
     public static class ItemList {
         private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+        // 木炭ブロック追加
         public static final RegistryObject<Item> CCBBT = ITEMS.register("charcoal_block",() -> new CCBBT(Blocks.CHARCOAL_BLOCK.get(), (new Item.Properties())));
         
         public static final RegistryObject<Item> COMPRESSED_DIRT1 = ITEMS.register("compressed_dirt1", () -> new BlockItem(Blocks.COMPRESSED_DIRT1.get(), (new Item.Properties())
