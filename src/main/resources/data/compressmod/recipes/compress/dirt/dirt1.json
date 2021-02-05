@@ -1,16 +1,11 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "group": "compressed_blocks",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:dirt"
-        }
-    },
+    "ingredients": [
+        { "item": "dirt" },{ "item": "dirt" },{ "item": "dirt" },
+        { "item": "dirt" },{ "item": "dirt" },{ "item": "dirt" },
+        { "item": "dirt" },{ "item": "dirt" },{ "item": "dirt" }
+    ],    
     "result": {
         "item": "compressmod:compressed_dirt1"
     }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_grass1" }
+        "": { "model": "compressmod:block/compressed_grass1" }
     }
 }

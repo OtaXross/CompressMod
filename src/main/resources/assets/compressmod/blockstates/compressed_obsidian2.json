@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_obsidian2" }
+        "": { "model": "compressmod:block/compressed_obsidian2" }
     }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_stone3" }
+        "": { "model": "compressmod:block/compressed_stone3" }
     }
 }

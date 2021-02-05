@@ -1,7 +1,7 @@
 {
 	"parent": "compressmod:block/template_compressed_block",
 	"textures": {
-		"contain": "block/grass",
-		"frame": "compressmod:block/tier_4_frame"
+		"contain": "block/coal_block",
+		"frame": "compressmod:block/tier_2_frame"
 	}
 }

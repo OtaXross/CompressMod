@@ -1,0 +1,7 @@
+{
+	"parent": "compressmod:block/template_compressed_block_tint",
+	"textures": {
+		"contain": "block/grass_block_top",
+		"frame": "compressmod:block/tier_1_frame"
+	}
+}

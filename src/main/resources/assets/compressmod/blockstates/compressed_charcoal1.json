@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_charcoal1" }
+        "": { "model": "compressmod:block/compressed_charcoal1" }
     }
 }

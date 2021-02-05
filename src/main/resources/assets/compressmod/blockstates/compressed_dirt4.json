@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_dirt4" }
+        "": { "model": "compressmod:block/compressed_dirt4" }
     }
 }

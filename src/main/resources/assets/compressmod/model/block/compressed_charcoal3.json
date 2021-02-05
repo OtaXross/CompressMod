@@ -1,7 +1,0 @@
-{
-	"parent": "compressmod:block/template_compressed_block",
-	"textures": {
-		"contain": "block/charcoal",
-		"frame": "compressmod:block/tier_3_frame"
-	}
-}

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "compressmod:compressed_coal4" }
+        "": { "model": "compressmod:block/compressed_coal4" }
     }
 }

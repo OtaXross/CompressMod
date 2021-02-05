@@ -1,0 +1,58 @@
+{
+    "parent": "block/block",
+    "ambientocclusion": true,
+    "gui_light": "side",
+	"textures": {
+		"particle": "#frame"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#frame"}
+			}
+		},
+		{
+			"from": [4, 4, -0.05],
+			"to": [12, 12, 16.075],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#contain", "tintindex": 0 },
+				"east": {"uv": [0, 3, 16, 13], "texture": "#contain", "tintindex": 0 },
+				"south": {"uv": [0, 0, 16, 16], "texture": "#contain", "tintindex": 0 },
+				"west": {"uv": [0, 3, 16, 13], "texture": "#contain", "tintindex": 0 },
+				"up": {"uv": [3, 0, 13, 16], "rotation": 180, "texture": "#contain", "tintindex": 0 },
+				"down": {"uv": [3, 0, 13, 16], "rotation": 180, "texture": "#contain", "tintindex": 0 }
+			}
+		},
+		{
+			"from": [4, -0.075, 4],
+			"to": [12, 16.05, 12],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 16], "texture": "#contain", "tintindex": 0 },
+				"east": {"uv": [0, 3, 16, 13], "rotation": 270, "texture": "#contain", "tintindex": 0 },
+				"south": {"uv": [3, 0, 13, 16], "rotation": 180, "texture": "#contain", "tintindex": 0 },
+				"west": {"uv": [0, 3, 16, 13], "rotation": 90, "texture": "#contain", "tintindex": 0 },
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#contain", "tintindex": 0 },
+				"down": {"uv": [0, 0, 16, 16], "texture": "#contain", "tintindex": 0 }
+			}
+		},
+		{
+			"from": [-0.05, 4, 4],
+			"to": [16.075, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 3, 16, 13], "texture": "#contain", "tintindex": 0 },
+				"east": {"uv": [0, 0, 16, 16], "texture": "#contain", "tintindex": 0 },
+				"south": {"uv": [0, 3, 16, 13], "texture": "#contain", "tintindex": 0 },
+				"west": {"uv": [0, 0, 16, 16], "texture": "#contain", "tintindex": 0 },
+				"up": {"uv": [3, 0, 13, 16], "rotation": 90, "texture": "#contain", "tintindex": 0 },
+				"down": {"uv": [3, 0, 13, 16], "rotation": 270, "texture": "#contain", "tintindex": 0 }
+			}
+		}
+	]
+}
