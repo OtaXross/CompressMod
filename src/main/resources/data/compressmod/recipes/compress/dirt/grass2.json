@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "compressemod:compressed_grass1"
+            "item": "compressmod:compressed_grass1"
         }
     },
     "result": {
-        "item": "compressemod:compressed_grass2"
+        "item": "compressmod:compressed_grass2"
     }
 }

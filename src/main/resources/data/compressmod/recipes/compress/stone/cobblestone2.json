@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "compressemod:compressed_cobblestone1"
+            "item": "compressmod:compressed_cobblestone1"
         }
     },
     "result": {
-        "item": "compressemod:compressed_cobblestone2"
+        "item": "compressmod:compressed_cobblestone2"
     }
 }

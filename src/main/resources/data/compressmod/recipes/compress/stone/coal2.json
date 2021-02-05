@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "compressemod:compressed_coal1"
+            "item": "compressmod:compressed_coal1"
         }
     },
     "result": {
-        "item": "compressemod:compressed_coal2"
+        "item": "compressmod:compressed_coal2"
     }
 }

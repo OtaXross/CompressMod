@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "compressemod:compressed_dirt2"
+            "item": "compressmod:compressed_dirt2"
         }
     },
     "result": {
-        "item": "compressemod:compressed_dirt3"
+        "item": "compressmod:compressed_dirt3"
     }
 }

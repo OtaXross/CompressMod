@@ -19,5 +19,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class CompressMod {
     public static final String MOD_ID = "compressmod";
 
+    public CompressMod() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        Blocks.register(modEventBus);
+        Items.register(modEventBus);
+        
+    }
+
 
 }
