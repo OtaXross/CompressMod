@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_jungle_log2"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_jungle_log1",
+        "count": 9
+    }
+}

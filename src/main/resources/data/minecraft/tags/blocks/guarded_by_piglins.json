@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_gold1",
+      "compressmod:compressed_gold2",
+      "compressmod:compressed_gold3",
+      "compressmod:compressed_gold4",
+      "compressmod:compressed_gold5"
+    ]
+  }

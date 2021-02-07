@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_iron1",
+      "compressmod:compressed_iron2",
+      "compressmod:compressed_iron3",
+      "compressmod:compressed_iron4",
+      "compressmod:compressed_iron5",
+      "compressmod:compressed_gold1",
+      "compressmod:compressed_gold2",
+      "compressmod:compressed_gold3",
+      "compressmod:compressed_gold4",
+      "compressmod:compressed_gold5",
+      "compressmod:compressed_diamond1",
+      "compressmod:compressed_diamond2",
+      "compressmod:compressed_diamond3",
+      "compressmod:compressed_diamond4",
+      "compressmod:compressed_diamond5"
+    ]
+  }

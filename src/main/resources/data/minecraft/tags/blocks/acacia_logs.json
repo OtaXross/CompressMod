@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_acacia_log1",
+      "compressmod:compressed_acacia_log2",
+      "compressmod:compressed_acacia_log3",
+      "compressmod:compressed_acacia_log4",
+      "compressmod:compressed_acacia_log5"
+    ]
+  }

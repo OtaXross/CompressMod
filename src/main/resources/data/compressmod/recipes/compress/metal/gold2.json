@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressmod:compressed_gold1"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_gold2"
+    }
+}

@@ -1,7 +1,7 @@
 {
 	"parent": "compressmod:block/template_compressed_block",
 	"textures": {
-		"contain": "block/dirt",
+		"contain": "block/obsidian",
 		"frame": "compressmod:block/tier_5_frame"
 	}
 }

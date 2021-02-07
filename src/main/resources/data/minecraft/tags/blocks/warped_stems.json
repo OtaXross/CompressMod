@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_warped_stem1",
+      "compressmod:compressed_warped_stem2",
+      "compressmod:compressed_warped_stem3",
+      "compressmod:compressed_warped_stem4",
+      "compressmod:compressed_warped_stem5"
+    ]
+  }

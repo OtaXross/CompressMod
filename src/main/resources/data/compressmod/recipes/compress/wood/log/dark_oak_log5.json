@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressmod:compressed_dark_oak_log4"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_dark_oak_log5"
+    }
+}

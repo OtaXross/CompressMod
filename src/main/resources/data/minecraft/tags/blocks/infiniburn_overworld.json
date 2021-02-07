@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_netherrack1",
+      "compressmod:compressed_netherrack2",
+      "compressmod:compressed_netherrack3",
+      "compressmod:compressed_netherrack4",
+      "compressmod:compressed_netherrack5"
+    ]
+  }

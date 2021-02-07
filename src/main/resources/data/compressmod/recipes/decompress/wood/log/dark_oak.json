@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_dark_oak_log1"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_oak_log",
+        "count": 9
+    }
+}

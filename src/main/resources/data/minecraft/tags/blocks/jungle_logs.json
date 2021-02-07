@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_jungle_log1",
+      "compressmod:compressed_jungle_log2",
+      "compressmod:compressed_jungle_log3",
+      "compressmod:compressed_jungle_log4",
+      "compressmod:compressed_jungle_log5"
+    ]
+  }

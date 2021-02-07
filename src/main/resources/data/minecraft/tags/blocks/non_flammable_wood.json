@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+      "compressmod:compressed_warped_stem1",
+      "compressmod:compressed_warped_stem2",
+      "compressmod:compressed_warped_stem3",
+      "compressmod:compressed_warped_stem4",
+      "compressmod:compressed_warped_stem5",
+      "compressmod:compressed_crimson_stem1",
+      "compressmod:compressed_crimson_stem2",
+      "compressmod:compressed_crimson_stem3",
+      "compressmod:compressed_crimson_stem4",
+      "compressmod:compressed_crimson_stem5",
+      "compressmod:compressed_crimson_planks1",
+      "compressmod:compressed_crimson_planks2",
+      "compressmod:compressed_crimson_planks3",
+      "compressmod:compressed_crimson_planks4",
+      "compressmod:compressed_crimson_planks5",
+      "compressmod:compressed_warped_planks1",
+      "compressmod:compressed_warped_planks2",
+      "compressmod:compressed_warped_planks3",
+      "compressmod:compressed_warped_planks4",
+      "compressmod:compressed_warped_planks5"
+    ]
+  }
