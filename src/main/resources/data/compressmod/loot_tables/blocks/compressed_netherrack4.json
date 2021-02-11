@@ -1,0 +1,19 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "compressmod:compressed_netherrack4",
+                    "conditions": [
+                        {
+                            "condition": "survives_explosion"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

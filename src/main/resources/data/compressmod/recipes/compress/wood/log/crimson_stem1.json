@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "crimson_stem"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_crimson_stem1"
+    }
+}

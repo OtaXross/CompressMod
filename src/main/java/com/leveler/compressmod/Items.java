@@ -387,15 +387,15 @@ public class Items extends CompressMod {
                 .group(ItemGroup.BUILDING_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_HAY_BLOCK5 = ITEMS.register("compressed_hay_block5", () -> new BlockItem(Blocks.COMPRESSED_HAY_BLOCK5.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
-        public static final RegistryObject<Item> COMPRESSED_MAGMA_BUCKET1 = ITEMS.register("compressed_magma_bucket1", () -> new BlockItem(Blocks.COMPRESSED_MAGMA_BUCKET1.get(), (new Item.Properties())
+        public static final RegistryObject<Item> COMPRESSED_LAVA_BUCKET1 = ITEMS.register("compressed_lava_bucket1", () -> new LavaBucket(Blocks.COMPRESSED_LAVA_BUCKET1.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
-        public static final RegistryObject<Item> COMPRESSED_MAGMA_BUCKET2 = ITEMS.register("compressed_magma_bucket2", () -> new BlockItem(Blocks.COMPRESSED_MAGMA_BUCKET2.get(), (new Item.Properties())
+        public static final RegistryObject<Item> COMPRESSED_LAVA_BUCKET2 = ITEMS.register("compressed_lava_bucket2", () -> new LavaBucket(Blocks.COMPRESSED_LAVA_BUCKET2.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
-        public static final RegistryObject<Item> COMPRESSED_MAGMA_BUCKET3 = ITEMS.register("compressed_magma_bucket3", () -> new BlockItem(Blocks.COMPRESSED_MAGMA_BUCKET3.get(), (new Item.Properties())
+        public static final RegistryObject<Item> COMPRESSED_LAVA_BUCKET3 = ITEMS.register("compressed_lava_bucket3", () -> new LavaBucket(Blocks.COMPRESSED_LAVA_BUCKET3.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
-        public static final RegistryObject<Item> COMPRESSED_MAGMA_BUCKET4 = ITEMS.register("compressed_magma_bucket4", () -> new BlockItem(Blocks.COMPRESSED_MAGMA_BUCKET4.get(), (new Item.Properties())
+        public static final RegistryObject<Item> COMPRESSED_LAVA_BUCKET4 = ITEMS.register("compressed_lava_bucket4", () -> new LavaBucket(Blocks.COMPRESSED_LAVA_BUCKET4.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
-        public static final RegistryObject<Item> COMPRESSED_MAGMA_BUCKET5 = ITEMS.register("compressed_magma_bucket5", () -> new BlockItem(Blocks.COMPRESSED_MAGMA_BUCKET5.get(), (new Item.Properties())
+        public static final RegistryObject<Item> COMPRESSED_LAVA_BUCKET5 = ITEMS.register("compressed_lava_bucket5", () -> new LavaBucket(Blocks.COMPRESSED_LAVA_BUCKET5.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_FLINT1 = ITEMS.register("compressed_flint1", () -> new BlockItem(Blocks.COMPRESSED_FLINT1.get(), (new Item.Properties())
                 .group(ItemGroup.BUILDING_BLOCKS)));

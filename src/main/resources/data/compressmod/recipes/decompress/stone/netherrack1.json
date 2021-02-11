@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        { "item": "compressmod:compressed_netherrack2" }
+    ],
+    "result": {
+        "item": "compressmod:compressed_netherrack1"
+    }
+}

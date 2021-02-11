@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_warped_stem5"
+        }
+    ],
+    "result": {
+        "item": "compressmod:comressed_warped_stem4"
+    }
+}

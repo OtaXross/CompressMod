@@ -1,0 +1,19 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "compressmod:compressed_warped_stem2",
+                    "conditions": [
+                        {
+                            "condition": "survives_explosion"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

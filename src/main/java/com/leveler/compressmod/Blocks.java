@@ -33,6 +33,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 土ブロック・銀
@@ -44,6 +45,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 土ブロック・金
@@ -55,6 +57,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 土ブロック・白金
@@ -66,6 +69,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 土ブロック・黒
@@ -77,6 +81,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -89,6 +94,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 草ブロック・銀
@@ -100,6 +106,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 草ブロック・金
@@ -111,6 +118,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 草ブロック・白金
@@ -122,6 +130,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 草ブロック・黒
@@ -133,6 +142,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     
@@ -145,6 +155,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 丸石・銀
@@ -156,6 +167,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 丸石・金
@@ -167,6 +179,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 丸石・白金
@@ -178,6 +191,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 丸石・黒
@@ -189,6 +203,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -201,6 +216,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 焼石・銀
@@ -212,6 +228,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 焼石・金
@@ -223,6 +240,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 焼石・白金
@@ -234,6 +252,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 焼石・黒
@@ -245,6 +264,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -257,6 +277,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 花崗岩・銀
@@ -268,6 +289,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 花崗岩・金
@@ -279,6 +301,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 花崗岩・白金
@@ -290,6 +313,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 花崗岩・黒
@@ -301,6 +325,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -313,6 +338,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 閃緑岩・銀
@@ -324,6 +350,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 閃緑岩・金
@@ -335,6 +362,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 閃緑岩・白金
@@ -346,6 +374,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 閃緑岩・黒
@@ -357,6 +386,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -369,6 +399,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 安山岩・銀
@@ -380,6 +411,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 安山岩・金
@@ -391,6 +423,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 安山岩・白金
@@ -402,6 +435,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 安山岩・黒
@@ -413,6 +447,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -425,6 +460,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 黒曜石・銀
@@ -436,6 +472,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 黒曜石・金
@@ -447,6 +484,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 黒曜石・白金
@@ -458,6 +496,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 黒曜石・黒
@@ -469,6 +508,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -481,6 +521,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 石炭ブロック・銀
@@ -492,6 +533,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 石炭ブロック・金
@@ -503,6 +545,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 石炭ブロック・白金
@@ -514,6 +557,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 石炭ブロック・黒
@@ -525,6 +569,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -537,6 +582,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 木炭ブロック・銀
@@ -548,6 +594,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 木炭ブロック・金
@@ -559,6 +606,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 木炭ブロック・白金
@@ -570,6 +618,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 木炭ブロック・黒
@@ -581,6 +630,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -593,6 +643,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 鉄ブロック・銀
@@ -604,6 +655,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 鉄ブロック・金
@@ -615,6 +667,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 鉄ブロック・白金
@@ -626,6 +679,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 鉄ブロック・黒
@@ -637,6 +691,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -649,6 +704,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 金ブロック・銀
@@ -660,6 +716,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 金ブロック・金
@@ -671,6 +728,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 金ブロック・白金
@@ -682,6 +740,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 金ブロック・黒
@@ -693,6 +752,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -705,6 +765,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダイヤブロック・銀
@@ -716,6 +777,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダイヤブロック・金
@@ -727,6 +789,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダイヤブロック・白金
@@ -738,6 +801,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダイヤブロック・黒
@@ -749,6 +813,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -761,6 +826,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ラピスブロック・銀
@@ -772,6 +838,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ラピスブロック・金
@@ -783,6 +850,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ラピスブロック・白金
@@ -794,6 +862,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ラピスブロック・黒
@@ -805,6 +874,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -817,6 +887,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // クォーツブロック・銀
@@ -828,6 +899,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // クォーツブロック・金
@@ -839,6 +911,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // クォーツブロック・白金
@@ -850,6 +923,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // クォーツブロック・黒
@@ -861,6 +935,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -873,6 +948,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂利・銀
@@ -884,6 +960,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂利・金
@@ -895,6 +972,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂利・白金
@@ -906,6 +984,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂利・黒
@@ -917,6 +996,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -929,6 +1009,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂岩Ｎ・銀
@@ -940,6 +1021,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂岩Ｎ・金
@@ -951,6 +1033,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂岩Ｎ・白金
@@ -962,6 +1045,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 砂岩Ｎ・黒
@@ -973,6 +1057,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -985,6 +1070,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 赤砂岩Ｎ・銀
@@ -996,6 +1082,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 赤砂岩Ｎ・金
@@ -1007,6 +1094,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 赤砂岩Ｎ・白金
@@ -1018,6 +1106,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 赤砂岩Ｎ・黒
@@ -1029,6 +1118,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1041,6 +1131,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの原木・銀
@@ -1052,6 +1143,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの原木・金
@@ -1063,6 +1155,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの原木・白金
@@ -1074,6 +1167,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの原木・黒
@@ -1085,6 +1179,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1097,6 +1192,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの原木・銀
@@ -1108,6 +1204,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの原木・金
@@ -1119,6 +1216,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの原木・白金
@@ -1130,6 +1228,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの原木・黒
@@ -1141,6 +1240,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1153,6 +1253,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの原木・銀
@@ -1164,6 +1265,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの原木・金
@@ -1175,6 +1277,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの原木・白金
@@ -1186,6 +1289,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの原木・黒
@@ -1197,6 +1301,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1209,6 +1314,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの原木・銀
@@ -1220,6 +1326,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの原木・金
@@ -1231,6 +1338,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの原木・白金
@@ -1242,6 +1350,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの原木・黒
@@ -1253,6 +1362,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1265,6 +1375,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの原木・銀
@@ -1276,6 +1387,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの原木・金
@@ -1287,6 +1399,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの原木・白金
@@ -1298,6 +1411,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの原木・黒
@@ -1309,6 +1423,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1321,6 +1436,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの原木・銀
@@ -1332,6 +1448,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの原木・金
@@ -1343,6 +1460,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの原木・白金
@@ -1354,6 +1472,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの原木・黒
@@ -1365,6 +1484,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1377,6 +1497,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の幹・銀
@@ -1388,6 +1509,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の幹・金
@@ -1399,6 +1521,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の幹・白金
@@ -1410,6 +1533,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の幹・黒
@@ -1421,6 +1545,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1433,6 +1558,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ幹・銀
@@ -1444,6 +1570,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ幹・金
@@ -1455,6 +1582,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ幹・白金
@@ -1466,6 +1594,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ幹・黒
@@ -1477,6 +1606,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの木材・銅
@@ -1488,6 +1618,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの木材・銀
@@ -1499,6 +1630,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの木材・金
@@ -1510,6 +1642,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの木材・白金
@@ -1521,6 +1654,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // オークの木材・黒
@@ -1532,6 +1666,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1544,6 +1679,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの木材・銀
@@ -1555,6 +1691,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの木材・金
@@ -1566,6 +1703,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの木材・白金
@@ -1577,6 +1715,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // マツの木材・黒
@@ -1588,6 +1727,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1600,6 +1740,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの木材・銀
@@ -1611,6 +1752,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの木材・金
@@ -1622,6 +1764,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの木材・白金
@@ -1633,6 +1776,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // シラカバの木材・黒
@@ -1644,6 +1788,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1656,6 +1801,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの木材・銀
@@ -1667,6 +1813,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの木材・金
@@ -1678,6 +1825,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの木材・白金
@@ -1689,6 +1837,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ジャングルの木材・黒
@@ -1700,6 +1849,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1712,6 +1862,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの木材・銀
@@ -1723,6 +1874,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの木材・金
@@ -1734,6 +1886,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの木材・白金
@@ -1745,6 +1898,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // アカシアの木材・黒
@@ -1756,6 +1910,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1768,6 +1923,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの木材・銀
@@ -1779,6 +1935,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの木材・金
@@ -1790,6 +1947,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの木材・白金
@@ -1801,6 +1959,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ダークオークの木材・黒
@@ -1812,6 +1971,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1824,6 +1984,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の木材・銀
@@ -1835,6 +1996,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の木材・金
@@ -1846,6 +2008,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の木材・白金
@@ -1857,6 +2020,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 真紅の木材・黒
@@ -1868,6 +2032,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1880,6 +2045,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ木材・銀
@@ -1891,6 +2057,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ木材・金
@@ -1902,6 +2069,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ木材・白金
@@ -1913,6 +2081,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 歪んだ木材・黒
@@ -1924,6 +2093,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -1936,6 +2106,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 俵・銀
@@ -1947,6 +2118,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 俵・金
@@ -1958,6 +2130,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 俵・白金
@@ -1969,6 +2142,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 俵・黒
@@ -1980,11 +2154,12 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
     // マグマバケツ・銅
-    public static final RegistryObject<Block> COMPRESSED_MAGMA_BUCKET1 = BLOCKS.register("compressed_magma_bucket1", () -> new Block(AbstractBlock.Properties
+    public static final RegistryObject<Block> COMPRESSED_LAVA_BUCKET1 = BLOCKS.register("compressed_lava_bucket1", () -> new Block(AbstractBlock.Properties
             .create(Material.IRON)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1992,10 +2167,14 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
+            .setLightLevel((state) -> {
+                    return 15;
+            })
     ));
     // マグマバケツ・銀
-    public static final RegistryObject<Block> COMPRESSED_MAGMA_BUCKET2 = BLOCKS.register("compressed_magma_bucket2", () -> new Block(AbstractBlock.Properties
+    public static final RegistryObject<Block> COMPRESSED_LAVA_BUCKET2 = BLOCKS.register("compressed_lava_bucket2", () -> new Block(AbstractBlock.Properties
             .create(Material.IRON)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2003,10 +2182,14 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
+            .setLightLevel((state) -> {
+                    return 15;
+            })
     ));
     // マグマバケツ・金
-    public static final RegistryObject<Block> COMPRESSED_MAGMA_BUCKET3 = BLOCKS.register("compressed_magma_bucket3", () -> new Block(AbstractBlock.Properties
+    public static final RegistryObject<Block> COMPRESSED_LAVA_BUCKET3 = BLOCKS.register("compressed_lava_bucket3", () -> new Block(AbstractBlock.Properties
             .create(Material.IRON)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2014,10 +2197,14 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
+            .setLightLevel((state) -> {
+                    return 15;
+            })
     ));
     // マグマバケツ・白金
-    public static final RegistryObject<Block> COMPRESSED_MAGMA_BUCKET4 = BLOCKS.register("compressed_magma_bucket4", () -> new Block(AbstractBlock.Properties
+    public static final RegistryObject<Block> COMPRESSED_LAVA_BUCKET4 = BLOCKS.register("compressed_lava_bucket4", () -> new Block(AbstractBlock.Properties
             .create(Material.IRON)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2025,10 +2212,14 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
+            .setLightLevel((state) -> {
+                    return 15;
+            })
     ));
     // マグマバケツ・黒
-    public static final RegistryObject<Block> COMPRESSED_MAGMA_BUCKET5 = BLOCKS.register("compressed_magma_bucket5", () -> new Block(AbstractBlock.Properties
+    public static final RegistryObject<Block> COMPRESSED_LAVA_BUCKET5 = BLOCKS.register("compressed_lava_bucket5", () -> new Block(AbstractBlock.Properties
             .create(Material.IRON)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2036,7 +2227,11 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
+            .setLightLevel((state) -> {
+                    return 15;
+            })
     ));
 
     // 火打石・銅
@@ -2048,6 +2243,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 火打石・銀
@@ -2059,6 +2255,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 火打石・金
@@ -2070,6 +2267,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 火打石・白金
@@ -2081,6 +2279,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 火打石・黒
@@ -2092,6 +2291,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2104,6 +2304,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 腐肉・銀
@@ -2115,6 +2316,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 腐肉・金
@@ -2126,6 +2328,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 腐肉・白金
@@ -2137,6 +2340,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 腐肉・黒
@@ -2148,6 +2352,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2160,6 +2365,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 種・銀
@@ -2171,6 +2377,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 種・金
@@ -2182,6 +2389,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 種・白金
@@ -2193,6 +2401,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // 種・黒
@@ -2204,6 +2413,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2216,6 +2426,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // POT-8・銀
@@ -2227,6 +2438,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // POT-8・金
@@ -2238,6 +2450,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // POT-8・白金
@@ -2249,6 +2462,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // POT-8・黒
@@ -2260,6 +2474,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2272,6 +2487,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ベイクドポテト・銀
@@ -2283,6 +2499,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ベイクドポテト・金
@@ -2294,6 +2511,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ベイクドポテト・白金
@@ -2305,6 +2523,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2316,6 +2535,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2328,6 +2548,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // さとうきび・銀
@@ -2339,6 +2560,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // さとうきび・金
@@ -2350,6 +2572,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // さとうきび・白金
@@ -2361,6 +2584,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // さとうきび・黒
@@ -2372,6 +2596,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 
@@ -2384,6 +2609,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ネザーラック・銀
@@ -2395,6 +2621,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ネザーラック・金
@@ -2406,6 +2633,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ネザーラック・白金
@@ -2417,6 +2645,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
     // ネザーラック・黒
@@ -2428,6 +2657,7 @@ public class Blocks {
             .harvestTool(ToolType.SHOVEL)
             .harvestTool(ToolType.PICKAXE)
             .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
 

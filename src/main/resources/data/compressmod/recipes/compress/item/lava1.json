@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "lava_bucket"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_lava_bucket1"
+    }
+}

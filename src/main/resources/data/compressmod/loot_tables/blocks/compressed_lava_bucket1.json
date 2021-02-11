@@ -1,0 +1,19 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "compressmod:compressed_lava_bucket1",
+                    "conditions": [
+                        {
+                            "condition": "survives_explosion"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

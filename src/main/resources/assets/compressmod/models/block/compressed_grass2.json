@@ -1,5 +1,5 @@
 {
-	"parent": "compressmod:block/template_compressed_block_tint",
+	"parent": "compressmod:block/template_compressed_block",
 	"textures": {
 		"contain": "block/grass_block_top",
 		"frame": "compressmod:block/tier_2_frame"

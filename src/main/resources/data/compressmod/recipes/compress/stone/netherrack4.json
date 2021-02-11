@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "group": "compessed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": { "item": "netherrack" }
+    },
+    "result": {
+        "item": "compressmod:compressed_netherrack4"
+    }
+}

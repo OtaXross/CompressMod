@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_crimson_stem1"
+        }
+    ],
+    "result": {
+        "item": "crimson_stem"
+    }
+}
