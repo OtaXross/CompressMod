@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_acacia_planks4"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_acacia_planks3",
+        "count": 9
+    }
+}

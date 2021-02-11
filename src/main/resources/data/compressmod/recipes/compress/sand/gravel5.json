@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "group": "compressed_blocks",
+    "key": {
+        "#": { "item": "compressmod:compressed_gravel4" }
+    },
+    "result": {
+        "item": "compressmod:compressed_gravel5"
+    }
+}

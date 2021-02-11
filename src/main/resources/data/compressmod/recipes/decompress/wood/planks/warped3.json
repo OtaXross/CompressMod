@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_warped_planks4"
+        }
+    ],
+    "result": {
+        "item": "compressmod:comressed_warped_planks3"
+    }
+}

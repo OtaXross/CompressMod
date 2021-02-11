@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "group": "compressed_blocks",
+    "key": {
+        "#": { "item": "compressmod:compressed_sandstone1" }
+    },
+    "result": {
+        "item": "compressmod:compressed_sandstone2"
+    }
+}

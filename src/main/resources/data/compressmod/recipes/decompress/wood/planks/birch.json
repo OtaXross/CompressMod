@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_birch_planks1"
+        }
+    ],
+    "result": {
+        "item": "minecraft:birch_planks",
+        "count": 9
+    }
+}

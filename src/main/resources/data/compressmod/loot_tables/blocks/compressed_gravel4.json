@@ -1,0 +1,19 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "compressmod:compressed_gravel4",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:survives_explosion"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

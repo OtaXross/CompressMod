@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressmod:compressed_jungle_planks2"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_jungle_planks3"
+    }
+}

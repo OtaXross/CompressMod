@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressmod:compressed_oak_planks3"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_oak_planks4"
+    }
+}
