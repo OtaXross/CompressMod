@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "group": "compressed_blocks",
+    "key": { "#": { "item": "charcoal" } },
+    "result": { "item": "compressmod:charcoal_block" }
+}

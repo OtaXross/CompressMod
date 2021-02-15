@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_red_sandstone2",
+                    "name": "compressmod:compressed_red_sandstone2",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

@@ -1,0 +1,8 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [ { "item": "compressmod:compressed_sugar_cane5" } ],
+    "group": "decompress",
+    "result": {
+        "item": "compressmod:compressed_sugar_cane4"
+    }
+}

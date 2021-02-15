@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_red_sandstone4"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_red_sandstone3"
+    }
+}

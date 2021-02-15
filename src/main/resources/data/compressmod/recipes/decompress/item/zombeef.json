@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_zombeef1"
+        }
+    ],
+    "result": {
+        "item": "rotten_flesh"
+    }
+}

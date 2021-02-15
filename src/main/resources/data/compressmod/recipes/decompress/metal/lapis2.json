@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_lapis_lazuli3"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_lapis_lazuli2"
+    }
+}

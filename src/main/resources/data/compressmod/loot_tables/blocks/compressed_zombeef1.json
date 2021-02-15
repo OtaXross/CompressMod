@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_zombeef1",
+                    "name": "compressmod:compressed_zombeef1",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

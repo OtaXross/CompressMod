@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_lapis_lazuli5",
+                    "name": "compressmod:compressed_lapis_lazuli5",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

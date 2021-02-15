@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_potato3"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_potato2"
+    }
+}

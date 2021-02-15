@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_hay_block2",
+                    "name": "compressmod:compressed_hay_block2",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

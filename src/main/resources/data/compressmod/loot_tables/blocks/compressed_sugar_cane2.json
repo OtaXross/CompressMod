@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_sugar_cane2",
+                    "name": "compressmod:compressed_sugar_cane2",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "baked_potato"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_baked_potato1"
+    }
+}

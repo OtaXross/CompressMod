@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_charcoal1"
+        }
+    ],
+    "result": {
+        "item": "compressmod:charcoal_block"
+    }
+}

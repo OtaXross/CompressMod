@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_diorite1",
+                    "name": "compressmod:compressed_diorite1",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

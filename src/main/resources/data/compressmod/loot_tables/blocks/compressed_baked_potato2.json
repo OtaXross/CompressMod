@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compressed_baked_potato2",
+                    "name": "compressmod:compressed_baked_potato2",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_baked_potato1"
+        }
+    ],
+    "result": {
+        "item": "baked_potato"
+    }
+}

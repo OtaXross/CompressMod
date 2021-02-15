@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_flint3"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_flint2"
+    }
+}

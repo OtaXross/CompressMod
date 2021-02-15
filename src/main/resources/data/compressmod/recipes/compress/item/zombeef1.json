@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "rotten_flesh"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_zombeef1"
+    }
+}

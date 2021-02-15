@@ -3,10 +3,10 @@
     "group": "decompress",
     "ingredients": [
         {
-            "item": "compressmod:compressed_charcoal1"
+            "item": "compressmod:charcoal_block"
         }
     ],
     "result": {
-        "item": "compressmod:charcoal_block"
+        "item": "charcoal"
     }
 }
