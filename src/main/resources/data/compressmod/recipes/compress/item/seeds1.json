@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_blocks",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": { "#": { "item": "wheat_seeds" } },
+    "result": {
+        "item": "compressmod:compressed_seeds1"
+    }
+}

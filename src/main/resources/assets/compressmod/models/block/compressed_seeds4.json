@@ -1,0 +1,7 @@
+{
+    "parent": "compressmod:block/template_compressed_block",
+    "textures": {
+        "frame": "compressmod:block/tier_4_frame",
+        "contain": "item/wheat_seeds"
+    }
+}

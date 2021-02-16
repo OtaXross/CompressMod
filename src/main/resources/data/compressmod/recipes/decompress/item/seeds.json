@@ -1,0 +1,8 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [ { "item": "compressmod:compressed_seeds1" } ],
+    "group": "decompress",
+    "result": {
+        "item": "wheat_seeds"
+    }
+}
