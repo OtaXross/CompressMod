@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smoking",
+    "group": "C_furnace",
+    "ingredient": [
+    {
+      "tag": "compressmod:compressed_woods2"
+    }
+    ],
+    "result": "compressmod:compressed_charcoal2",
+    "experience": 15,
+    "cookingtime": 200
+  }

@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_woods": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "compressmod:compressed_woods4"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "compressmod:furnace/compressed_woods4"
+            }
+        }
+    },
+    "requirements": [
+        [ "has_woods", "has_recipe" ]
+    ],
+    "rewards": {
+        "recipes": [
+            "compressmod:furnace/compressed_woods4", "compressmod:furnace/compressed_woods4_smk"
+        ]
+    }
+}

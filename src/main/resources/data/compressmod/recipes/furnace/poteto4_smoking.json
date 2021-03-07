@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smoking",
+    "group": "C_furnace",
+    "ingredient": [
+    {
+      "item": "compressmod:compressed_potato4"
+    }
+    ],
+    "result": "compressmod:compressed_baked_potato4",
+    "experience": 3500,
+    "cookingtime": 200
+  }

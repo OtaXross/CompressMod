@@ -1,10 +1,10 @@
-package com.leveler.compressmod;
+package com.leveler.compressmod.burn_times;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-
+// Compressed Chacoal Block Burn Time
 public class CCBBT extends BlockItem {
 
     public CCBBT(Block blockIn, Item.Properties builder) {

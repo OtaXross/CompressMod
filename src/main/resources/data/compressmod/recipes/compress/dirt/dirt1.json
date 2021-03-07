@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "compressed_blocks",
+    "group": "compressed_dirts",
     "ingredients": [
         { "item": "dirt" },{ "item": "dirt" },{ "item": "dirt" },
         { "item": "dirt" },{ "item": "dirt" },{ "item": "dirt" },

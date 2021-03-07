@@ -1,7 +1,7 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [ { "item": "compressmod:compressed_seeds4" } ],
-    "group": "decompress",
+    "group": "decompress_items",
     "result": {
         "item": "compressmod:compressed_seeds3"
     }

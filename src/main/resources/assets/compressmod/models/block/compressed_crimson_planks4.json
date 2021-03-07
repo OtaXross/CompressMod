@@ -1,0 +1,7 @@
+{
+    "parent": "compressmod:block/template_compressed_block",
+    "textures": {
+        "contain": "block/crimson_planks",
+        "frame": "compressmod:block/tier_4_frame"
+    }
+}

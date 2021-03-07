@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_dirts",
     "ingredients": [
         {
             "item": "compressmod:compressed_dirt5"

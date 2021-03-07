@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_potato": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "compressmod:compressed_potato5"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "compressmod:furnace/poteto5"
+            }
+        }
+    },
+    "requirements": [
+        [ "has_potato", "has_recipe" ]
+    ],
+    "rewards": {
+        "recipes": [ "compressmod:furnace/poteto5", "compressmod:furnace/poteto5_smoking" ]
+    }
+}

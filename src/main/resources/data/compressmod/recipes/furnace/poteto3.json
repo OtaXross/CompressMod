@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "group": "C_furnace",
+    "ingredient": [
+    {
+      "item": "compressmod:compressed_potato3"
+    }
+    ],
+    "result": "compressmod:compressed_baked_potato3",
+    "experience": 350,
+    "cookingtime": 200
+  }

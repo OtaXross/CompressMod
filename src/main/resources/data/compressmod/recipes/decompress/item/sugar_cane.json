@@ -1,7 +1,7 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [ { "item": "compressmod:compressed_sugar_cane1" } ],
-    "group": "decompress",
+    "group": "decompress_items",
     "result": {
         "item": "sugar_cane"
     }
