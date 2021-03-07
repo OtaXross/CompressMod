@@ -1,12 +1,12 @@
 {
     "type": "crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_planks",
     "ingredients": [
         {
             "item": "compressmod:compressed_crimson_planks4"
         }
     ],
     "result": {
-        "item": "compressmod:comressed_crimson_planks3"
+        "item": "compressmod:compressed_crimson_planks3"
     }
 }

@@ -5,7 +5,7 @@
         "###",
         "###"
     ],
-    "group": "compressed_blocks",
+    "group": "compressed_stones",
     "key": { "#": { "item": "charcoal" } },
     "result": { "item": "compressmod:charcoal_block" }
 }

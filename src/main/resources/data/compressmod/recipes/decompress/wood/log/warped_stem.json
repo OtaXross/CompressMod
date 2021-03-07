@@ -1,6 +1,6 @@
 {
     "type": "crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_logs",
     "ingredients": [
         {
             "item": "compressmod:compressed_warped_stem1"

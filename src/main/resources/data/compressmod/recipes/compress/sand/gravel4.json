@@ -5,7 +5,7 @@
         "###",
         "###"
     ],
-    "group": "compressed_blocks",
+    "group": "compressed_sands",
     "key": {
         "#": { "item": "compressmod:compressed_gravel3" }
     },

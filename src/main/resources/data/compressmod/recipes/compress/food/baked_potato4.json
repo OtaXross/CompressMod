@@ -1,6 +1,6 @@
 {
     "type": "crafting_shaped",
-    "group": "compressed_blocks",
+    "group": "compressed_foods",
     "pattern": [
         "###",
         "###",
@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "compressmod:compressed_potato2"
+            "item": "compressmod:compressed_baked_potato3"
         }
     },
     "result": {
-        "item": "compressmod:compressed_potato3"
+        "item": "compressmod:compressed_baked_potato4"
     }
 }

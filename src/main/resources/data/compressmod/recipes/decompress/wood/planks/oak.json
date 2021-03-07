@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_planks",
     "ingredients": [
         {
             "item": "compressmod:compressed_oak_planks1"

@@ -1,6 +1,6 @@
 {
     "type": "crafting_shaped",
-    "group": "compressed_blocks",
+    "group": "compressed_foods",
     "pattern": [
         "###",
         "###",
@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "rotten_flesh"
+            "item": "compressmod:compressed_zombeef2"
         }
     },
     "result": {
-        "item": "compressmod:compressed_zombeef1"
+        "item": "compressmod:compressed_zombeef3"
     }
 }

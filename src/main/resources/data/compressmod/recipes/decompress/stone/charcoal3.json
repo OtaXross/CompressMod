@@ -1,6 +1,6 @@
 {
     "type": "crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_stones",
     "ingredients": [
         {
             "item": "compressmod:compressed_charcoal4"

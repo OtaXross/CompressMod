@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "decompress",
+    "group": "decompress_stones",
     "ingredients": [
         {
             "item": "compressmod:compressed_cobblestone2"
