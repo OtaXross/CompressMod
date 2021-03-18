@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "convert_to_normal",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": { "item": "compressmod:mini_compressed_dirt"}
+    },
+    "result": {
+        "item": "compressmod:compressed_dirt1",
+        "count": 4
+    }
+}

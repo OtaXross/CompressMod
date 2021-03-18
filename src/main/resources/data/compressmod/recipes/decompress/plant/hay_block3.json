@@ -1,0 +1,8 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [ { "item": "compressmod:compressed_hay_block4" } ],
+    "group": "decompress_plants",
+    "result": {
+        "item": "compressmod:compressed_hay_block3"
+    }
+}

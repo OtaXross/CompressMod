@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress_stones",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_andesite2"
+        }
+    ],
+    "result": {
+        "item": "compressmod:compressed_andesite1",
+        "count": 9
+    }
+}

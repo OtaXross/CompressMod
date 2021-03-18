@@ -4,10 +4,14 @@ import com.leveler.compressmod.CompressMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.AbstractBlock.Properties;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -24,189 +28,18 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 土ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_DIRT1 = BLOCKS.register("compressed_dirt1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
+    // 焼石・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_STONE = BLOCKS.register("mini_compressed_stone", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
     ));
-    // 土ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_DIRT2 = BLOCKS.register("compressed_dirt2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 土ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_DIRT3 = BLOCKS.register("compressed_dirt3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 土ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_DIRT4 = BLOCKS.register("compressed_dirt4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 土ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_DIRT5 = BLOCKS.register("compressed_dirt5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // 草ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_GRASS1 = BLOCKS.register("compressed_grass1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 草ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_GRASS2 = BLOCKS.register("compressed_grass2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 草ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_GRASS3 = BLOCKS.register("compressed_grass3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 草ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_GRASS4 = BLOCKS.register("compressed_grass4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 草ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_GRASS5 = BLOCKS.register("compressed_grass5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    
-    // 丸石・銅
-    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE1 = BLOCKS.register("compressed_cobblestone1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 丸石・銀
-    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE2 = BLOCKS.register("compressed_cobblestone2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 丸石・金
-    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE3 = BLOCKS.register("compressed_cobblestone3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 丸石・白金
-    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE4 = BLOCKS.register("compressed_cobblestone4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 丸石・黒
-    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE5 = BLOCKS.register("compressed_cobblestone5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
     // 焼石・銅
     public static final RegistryObject<Block> COMPRESSED_STONE1 = BLOCKS.register("compressed_stone1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
@@ -268,6 +101,18 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
+    // 花崗岩・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_GRANITE = BLOCKS.register("mini_compressed_granite", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
     // 花崗岩・銅
     public static final RegistryObject<Block> COMPRESSED_GRANITE1 = BLOCKS.register("compressed_granite1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
@@ -329,6 +174,18 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
+    // 閃緑岩・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_DIORITE = BLOCKS.register("mini_compressed_diorite", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
     // 閃緑岩・銅
     public static final RegistryObject<Block> COMPRESSED_DIORITE1 = BLOCKS.register("compressed_diorite1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
@@ -390,6 +247,18 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
+    // 安山岩・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_ANDESITE = BLOCKS.register("mini_compressed_andesite", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
     // 安山岩・銅
     public static final RegistryObject<Block> COMPRESSED_ANDESITE1 = BLOCKS.register("compressed_andesite1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
@@ -451,8 +320,20 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 黒曜石・銅
-    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN1 = BLOCKS.register("compressed_obsidian1", () -> new Block(AbstractBlock.Properties
+    // 草ブロック・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_GRASS = BLOCKS.register("mini_compressed_grass", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
+    // 草ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_GRASS1 = BLOCKS.register("compressed_grass1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -463,8 +344,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 黒曜石・銀
-    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN2 = BLOCKS.register("compressed_obsidian2", () -> new Block(AbstractBlock.Properties
+    // 草ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_GRASS2 = BLOCKS.register("compressed_grass2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -475,8 +356,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 黒曜石・金
-    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN3 = BLOCKS.register("compressed_obsidian3", () -> new Block(AbstractBlock.Properties
+    // 草ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_GRASS3 = BLOCKS.register("compressed_grass3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -487,8 +368,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 黒曜石・白金
-    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN4 = BLOCKS.register("compressed_obsidian4", () -> new Block(AbstractBlock.Properties
+    // 草ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_GRASS4 = BLOCKS.register("compressed_grass4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -499,8 +380,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 黒曜石・黒
-    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN5 = BLOCKS.register("compressed_obsidian5", () -> new Block(AbstractBlock.Properties
+    // 草ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_GRASS5 = BLOCKS.register("compressed_grass5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -511,9 +392,21 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-
-    // 石炭ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_COAL1 = BLOCKS.register("compressed_coal1", () -> new Block(AbstractBlock.Properties
+    
+    // 土ブロック・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_DIRT = BLOCKS.register("mini_compressed_dirt", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
+    // 土ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_DIRT1 = BLOCKS.register("compressed_dirt1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -524,8 +417,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 石炭ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_COAL2 = BLOCKS.register("compressed_coal2", () -> new Block(AbstractBlock.Properties
+    // 土ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_DIRT2 = BLOCKS.register("compressed_dirt2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -536,8 +429,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 石炭ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_COAL3 = BLOCKS.register("compressed_coal3", () -> new Block(AbstractBlock.Properties
+    // 土ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_DIRT3 = BLOCKS.register("compressed_dirt3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -548,8 +441,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 石炭ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_COAL4 = BLOCKS.register("compressed_coal4", () -> new Block(AbstractBlock.Properties
+    // 土ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_DIRT4 = BLOCKS.register("compressed_dirt4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -560,69 +453,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 石炭ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_COAL5 = BLOCKS.register("compressed_coal5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // 木炭ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_CHARCOAL1 = BLOCKS.register("compressed_charcoal1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 木炭ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_CHARCOAL2 = BLOCKS.register("compressed_charcoal2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 木炭ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_CHARCOAL3 = BLOCKS.register("compressed_charcoal3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 木炭ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_CHARCOAL4 = BLOCKS.register("compressed_charcoal4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 木炭ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_CHARCOAL5 = BLOCKS.register("compressed_charcoal5", () -> new Block(AbstractBlock.Properties
+    // 土ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_DIRT5 = BLOCKS.register("compressed_dirt5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -634,8 +466,21 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 鉄ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_IRON1 = BLOCKS.register("compressed_iron1", () -> new Block(AbstractBlock.Properties
+    
+    // 丸石・ミニ
+    public static final RegistryObject<Block> MINI_COMPRESSED_COBBLESTONE = BLOCKS.register("mini_compressed_cobblestone", () -> new Block(AbstractBlock.Properties
+        .create(Material.GLASS)
+        .setRequiresTool()
+        .hardnessAndResistance(0.25F, 15.0F)
+        .sound(SoundType.NETHER_BRICK)
+        .harvestTool(ToolType.SHOVEL)
+        .harvestTool(ToolType.PICKAXE)
+        .harvestTool(ToolType.AXE)
+        .harvestTool(ToolType.HOE)
+        .harvestLevel(1)
+    ));
+    // 丸石・銅
+    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE1 = BLOCKS.register("compressed_cobblestone1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -646,8 +491,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 鉄ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_IRON2 = BLOCKS.register("compressed_iron2", () -> new Block(AbstractBlock.Properties
+    // 丸石・銀
+    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE2 = BLOCKS.register("compressed_cobblestone2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -658,8 +503,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 鉄ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_IRON3 = BLOCKS.register("compressed_iron3", () -> new Block(AbstractBlock.Properties
+    // 丸石・金
+    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE3 = BLOCKS.register("compressed_cobblestone3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -670,8 +515,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 鉄ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_IRON4 = BLOCKS.register("compressed_iron4", () -> new Block(AbstractBlock.Properties
+    // 丸石・白金
+    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE4 = BLOCKS.register("compressed_cobblestone4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -682,69 +527,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 鉄ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_IRON5 = BLOCKS.register("compressed_iron5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // 金ブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_GOLD1 = BLOCKS.register("compressed_gold1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 金ブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_GOLD2 = BLOCKS.register("compressed_gold2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 金ブロック・金
-    public static final RegistryObject<Block> COMPRESSED_GOLD3 = BLOCKS.register("compressed_gold3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 金ブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_GOLD4 = BLOCKS.register("compressed_gold4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 金ブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_GOLD5 = BLOCKS.register("compressed_gold5", () -> new Block(AbstractBlock.Properties
+    // 丸石・黒
+    public static final RegistryObject<Block> COMPRESSED_COBBLESTONE5 = BLOCKS.register("compressed_cobblestone5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -756,8 +540,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // ダイヤブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_DIAMOND1 = BLOCKS.register("compressed_diamond1", () -> new Block(AbstractBlock.Properties
+    // オークの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS1 = BLOCKS.register("compressed_oak_planks1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -768,8 +552,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // ダイヤブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_DIAMOND2 = BLOCKS.register("compressed_diamond2", () -> new Block(AbstractBlock.Properties
+    // オークの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS2 = BLOCKS.register("compressed_oak_planks2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -780,8 +564,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // ダイヤブロック・金
-    public static final RegistryObject<Block> COMPRESSED_DIAMOND3 = BLOCKS.register("compressed_diamond3", () -> new Block(AbstractBlock.Properties
+    // オークの木材・金
+    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS3 = BLOCKS.register("compressed_oak_planks3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -792,8 +576,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // ダイヤブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_DIAMOND4 = BLOCKS.register("compressed_diamond4", () -> new Block(AbstractBlock.Properties
+    // オークの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS4 = BLOCKS.register("compressed_oak_planks4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -804,69 +588,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // ダイヤブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_DIAMOND5 = BLOCKS.register("compressed_diamond5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // ラピスブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI1 = BLOCKS.register("compressed_lapis_lazuli1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ラピスブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI2 = BLOCKS.register("compressed_lapis_lazuli2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ラピスブロック・金
-    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI3 = BLOCKS.register("compressed_lapis_lazuli3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ラピスブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI4 = BLOCKS.register("compressed_lapis_lazuli4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ラピスブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI5 = BLOCKS.register("compressed_lapis_lazuli5", () -> new Block(AbstractBlock.Properties
+    // オークの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS5 = BLOCKS.register("compressed_oak_planks5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -878,8 +601,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // クォーツブロック・銅
-    public static final RegistryObject<Block> COMPRESSED_QUARTZ1 = BLOCKS.register("compressed_quartz1", () -> new Block(AbstractBlock.Properties
+    // マツの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS1 = BLOCKS.register("compressed_spruce_planks1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -890,8 +613,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // クォーツブロック・銀
-    public static final RegistryObject<Block> COMPRESSED_QUARTZ2 = BLOCKS.register("compressed_quartz2", () -> new Block(AbstractBlock.Properties
+    // マツの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS2 = BLOCKS.register("compressed_spruce_planks2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -902,8 +625,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // クォーツブロック・金
-    public static final RegistryObject<Block> COMPRESSED_QUARTZ3 = BLOCKS.register("compressed_quartz3", () -> new Block(AbstractBlock.Properties
+    // マツの木材・金
+    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS3 = BLOCKS.register("compressed_spruce_planks3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -914,8 +637,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // クォーツブロック・白金
-    public static final RegistryObject<Block> COMPRESSED_QUARTZ4 = BLOCKS.register("compressed_quartz4", () -> new Block(AbstractBlock.Properties
+    // マツの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS4 = BLOCKS.register("compressed_spruce_planks4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -926,8 +649,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // クォーツブロック・黒
-    public static final RegistryObject<Block> COMPRESSED_QUARTZ5 = BLOCKS.register("compressed_quartz5", () -> new Block(AbstractBlock.Properties
+    // マツの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS5 = BLOCKS.register("compressed_spruce_planks5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -939,7 +662,495 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 砂利・銅
+    // シラカバの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS1 = BLOCKS.register("compressed_birch_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // シラカバの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS2 = BLOCKS.register("compressed_birch_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // シラカバの木材・金
+    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS3 = BLOCKS.register("compressed_birch_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // シラカバの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS4 = BLOCKS.register("compressed_birch_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // シラカバの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS5 = BLOCKS.register("compressed_birch_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // ジャングルの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS1 = BLOCKS.register("compressed_jungle_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ジャングルの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS2 = BLOCKS.register("compressed_jungle_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ジャングルの木材・金
+    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS3 = BLOCKS.register("compressed_jungle_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ジャングルの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS4 = BLOCKS.register("compressed_jungle_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ジャングルの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS5 = BLOCKS.register("compressed_jungle_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // アカシアの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS1 = BLOCKS.register("compressed_acacia_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // アカシアの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS2 = BLOCKS.register("compressed_acacia_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // アカシアの木材・金
+    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS3 = BLOCKS.register("compressed_acacia_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // アカシアの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS4 = BLOCKS.register("compressed_acacia_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // アカシアの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS5 = BLOCKS.register("compressed_acacia_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // ダークオークの木材・銅
+    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS1 = BLOCKS.register("compressed_dark_oak_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダークオークの木材・銀
+    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS2 = BLOCKS.register("compressed_dark_oak_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダークオークの木材・金
+    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS3 = BLOCKS.register("compressed_dark_oak_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダークオークの木材・白金
+    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS4 = BLOCKS.register("compressed_dark_oak_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダークオークの木材・黒
+    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS5 = BLOCKS.register("compressed_dark_oak_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 真紅の木材・銅
+    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS1 = BLOCKS.register("compressed_crimson_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 真紅の木材・銀
+    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS2 = BLOCKS.register("compressed_crimson_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 真紅の木材・金
+    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS3 = BLOCKS.register("compressed_crimson_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 真紅の木材・白金
+    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS4 = BLOCKS.register("compressed_crimson_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 真紅の木材・黒
+    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS5 = BLOCKS.register("compressed_crimson_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 歪んだ木材・銅
+    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS1 = BLOCKS.register("compressed_warped_planks1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 歪んだ木材・銀
+    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS2 = BLOCKS.register("compressed_warped_planks2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 歪んだ木材・金
+    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS3 = BLOCKS.register("compressed_warped_planks3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 歪んだ木材・白金
+    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS4 = BLOCKS.register("compressed_warped_planks4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 歪んだ木材・黒
+    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS5 = BLOCKS.register("compressed_warped_planks5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    //砂・銅
+    public static final RegistryObject<Block> COMPRESSED_SAND1 = BLOCKS.register("compressed_sand1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //砂・銀
+    public static final RegistryObject<Block> COMPRESSED_SAND2 = BLOCKS.register("compressed_sand2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //砂・金
+    public static final RegistryObject<Block> COMPRESSED_SAND3 = BLOCKS.register("compressed_sand3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //砂・白金
+    public static final RegistryObject<Block> COMPRESSED_SAND4 = BLOCKS.register("compressed_sand4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //砂・黒
+    public static final RegistryObject<Block> COMPRESSED_SAND5 = BLOCKS.register("compressed_sand5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    //赤砂・銅
+    public static final RegistryObject<Block> COMPRESSED_RED_SAND1 = BLOCKS.register("compressed_red_sand1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //赤砂・銀
+    public static final RegistryObject<Block> COMPRESSED_RED_SAND2 = BLOCKS.register("compressed_red_sand2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //赤砂・金
+    public static final RegistryObject<Block> COMPRESSED_RED_SAND3 = BLOCKS.register("compressed_red_sand3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //赤砂・白金
+    public static final RegistryObject<Block> COMPRESSED_RED_SAND4 = BLOCKS.register("compressed_red_sand4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+    //赤砂・黒
+    public static final RegistryObject<Block> COMPRESSED_RED_SAND5 = BLOCKS.register("compressed_red_sand5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));     
+
+        // 砂利・銅
     public static final RegistryObject<Block> COMPRESSED_GRAVEL1 = BLOCKS.register("compressed_gravel1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
@@ -989,128 +1200,6 @@ public class Blocks {
     ));
     // 砂利・黒
     public static final RegistryObject<Block> COMPRESSED_GRAVEL5 = BLOCKS.register("compressed_gravel5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // 砂岩Ｎ・銅
-    public static final RegistryObject<Block> COMPRESSED_SANDSTONE1 = BLOCKS.register("compressed_sandstone1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 砂岩Ｎ・銀
-    public static final RegistryObject<Block> COMPRESSED_SANDSTONE2 = BLOCKS.register("compressed_sandstone2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 砂岩Ｎ・金
-    public static final RegistryObject<Block> COMPRESSED_SANDSTONE3 = BLOCKS.register("compressed_sandstone3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 砂岩Ｎ・白金
-    public static final RegistryObject<Block> COMPRESSED_SANDSTONE4 = BLOCKS.register("compressed_sandstone4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 砂岩Ｎ・黒
-    public static final RegistryObject<Block> COMPRESSED_SANDSTONE5 = BLOCKS.register("compressed_sandstone5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // 赤砂岩Ｎ・銅
-    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE1 = BLOCKS.register("compressed_red_sandstone1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 赤砂岩Ｎ・銀
-    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE2 = BLOCKS.register("compressed_red_sandstone2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 赤砂岩Ｎ・金
-    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE3 = BLOCKS.register("compressed_red_sandstone3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 赤砂岩Ｎ・白金
-    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE4 = BLOCKS.register("compressed_red_sandstone4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 赤砂岩Ｎ・黒
-    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE5 = BLOCKS.register("compressed_red_sandstone5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1609,8 +1698,9 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // オークの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS1 = BLOCKS.register("compressed_oak_planks1", () -> new Block(AbstractBlock.Properties
+    
+    // ラピスブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI1 = BLOCKS.register("compressed_lapis_lazuli1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1621,8 +1711,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // オークの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS2 = BLOCKS.register("compressed_oak_planks2", () -> new Block(AbstractBlock.Properties
+    // ラピスブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI2 = BLOCKS.register("compressed_lapis_lazuli2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1633,8 +1723,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // オークの木材・金
-    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS3 = BLOCKS.register("compressed_oak_planks3", () -> new Block(AbstractBlock.Properties
+    // ラピスブロック・金
+    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI3 = BLOCKS.register("compressed_lapis_lazuli3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1645,8 +1735,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // オークの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS4 = BLOCKS.register("compressed_oak_planks4", () -> new Block(AbstractBlock.Properties
+    // ラピスブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI4 = BLOCKS.register("compressed_lapis_lazuli4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1657,69 +1747,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // オークの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_OAK_PLANKS5 = BLOCKS.register("compressed_oak_planks5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // マツの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS1 = BLOCKS.register("compressed_spruce_planks1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // マツの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS2 = BLOCKS.register("compressed_spruce_planks2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // マツの木材・金
-    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS3 = BLOCKS.register("compressed_spruce_planks3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // マツの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS4 = BLOCKS.register("compressed_spruce_planks4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // マツの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_SPRUCE_PLANKS5 = BLOCKS.register("compressed_spruce_planks5", () -> new Block(AbstractBlock.Properties
+    // ラピスブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_LAPIS_LAZULI5 = BLOCKS.register("compressed_lapis_lazuli5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1731,8 +1760,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // シラカバの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS1 = BLOCKS.register("compressed_birch_planks1", () -> new Block(AbstractBlock.Properties
+    // 砂岩Ｎ・銅
+    public static final RegistryObject<Block> COMPRESSED_SANDSTONE1 = BLOCKS.register("compressed_sandstone1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1743,8 +1772,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // シラカバの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS2 = BLOCKS.register("compressed_birch_planks2", () -> new Block(AbstractBlock.Properties
+    // 砂岩Ｎ・銀
+    public static final RegistryObject<Block> COMPRESSED_SANDSTONE2 = BLOCKS.register("compressed_sandstone2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1755,8 +1784,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // シラカバの木材・金
-    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS3 = BLOCKS.register("compressed_birch_planks3", () -> new Block(AbstractBlock.Properties
+    // 砂岩Ｎ・金
+    public static final RegistryObject<Block> COMPRESSED_SANDSTONE3 = BLOCKS.register("compressed_sandstone3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1767,8 +1796,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // シラカバの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS4 = BLOCKS.register("compressed_birch_planks4", () -> new Block(AbstractBlock.Properties
+    // 砂岩Ｎ・白金
+    public static final RegistryObject<Block> COMPRESSED_SANDSTONE4 = BLOCKS.register("compressed_sandstone4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1779,69 +1808,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // シラカバの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_BIRCH_PLANKS5 = BLOCKS.register("compressed_birch_planks5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // ジャングルの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS1 = BLOCKS.register("compressed_jungle_planks1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ジャングルの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS2 = BLOCKS.register("compressed_jungle_planks2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ジャングルの木材・金
-    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS3 = BLOCKS.register("compressed_jungle_planks3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ジャングルの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS4 = BLOCKS.register("compressed_jungle_planks4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ジャングルの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_JUNGLE_PLANKS5 = BLOCKS.register("compressed_jungle_planks5", () -> new Block(AbstractBlock.Properties
+    // 砂岩Ｎ・黒
+    public static final RegistryObject<Block> COMPRESSED_SANDSTONE5 = BLOCKS.register("compressed_sandstone5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1853,8 +1821,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // アカシアの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS1 = BLOCKS.register("compressed_acacia_planks1", () -> new Block(AbstractBlock.Properties
+    // 赤砂岩Ｎ・銅
+    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE1 = BLOCKS.register("compressed_red_sandstone1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1865,8 +1833,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // アカシアの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS2 = BLOCKS.register("compressed_acacia_planks2", () -> new Block(AbstractBlock.Properties
+    // 赤砂岩Ｎ・銀
+    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE2 = BLOCKS.register("compressed_red_sandstone2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1877,8 +1845,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // アカシアの木材・金
-    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS3 = BLOCKS.register("compressed_acacia_planks3", () -> new Block(AbstractBlock.Properties
+    // 赤砂岩Ｎ・金
+    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE3 = BLOCKS.register("compressed_red_sandstone3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1889,8 +1857,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // アカシアの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS4 = BLOCKS.register("compressed_acacia_planks4", () -> new Block(AbstractBlock.Properties
+    // 赤砂岩Ｎ・白金
+    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE4 = BLOCKS.register("compressed_red_sandstone4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1901,69 +1869,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // アカシアの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_ACACIA_PLANKS5 = BLOCKS.register("compressed_acacia_planks5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // ダークオークの木材・銅
-    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS1 = BLOCKS.register("compressed_dark_oak_planks1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ダークオークの木材・銀
-    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS2 = BLOCKS.register("compressed_dark_oak_planks2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ダークオークの木材・金
-    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS3 = BLOCKS.register("compressed_dark_oak_planks3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ダークオークの木材・白金
-    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS4 = BLOCKS.register("compressed_dark_oak_planks4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ダークオークの木材・黒
-    public static final RegistryObject<Block> COMPRESSED_DARK_OAK_PLANKS5 = BLOCKS.register("compressed_dark_oak_planks5", () -> new Block(AbstractBlock.Properties
+    // 赤砂岩Ｎ・黒
+    public static final RegistryObject<Block> COMPRESSED_RED_SANDSTONE5 = BLOCKS.register("compressed_red_sandstone5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1975,8 +1882,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 真紅の木材・銅
-    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS1 = BLOCKS.register("compressed_crimson_planks1", () -> new Block(AbstractBlock.Properties
+    // 金ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_GOLD1 = BLOCKS.register("compressed_gold1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1987,8 +1894,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 真紅の木材・銀
-    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS2 = BLOCKS.register("compressed_crimson_planks2", () -> new Block(AbstractBlock.Properties
+    // 金ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_GOLD2 = BLOCKS.register("compressed_gold2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -1999,8 +1906,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 真紅の木材・金
-    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS3 = BLOCKS.register("compressed_crimson_planks3", () -> new Block(AbstractBlock.Properties
+    // 金ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_GOLD3 = BLOCKS.register("compressed_gold3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2011,8 +1918,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 真紅の木材・白金
-    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS4 = BLOCKS.register("compressed_crimson_planks4", () -> new Block(AbstractBlock.Properties
+    // 金ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_GOLD4 = BLOCKS.register("compressed_gold4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2023,8 +1930,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 真紅の木材・黒
-    public static final RegistryObject<Block> COMPRESSED_CRIMSON_PLANKS5 = BLOCKS.register("compressed_crimson_planks5", () -> new Block(AbstractBlock.Properties
+    // 金ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_GOLD5 = BLOCKS.register("compressed_gold5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2036,8 +1943,8 @@ public class Blocks {
             .harvestLevel(1)
     ));
 
-    // 歪んだ木材・銅
-    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS1 = BLOCKS.register("compressed_warped_planks1", () -> new Block(AbstractBlock.Properties
+    // 鉄ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_IRON1 = BLOCKS.register("compressed_iron1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2048,8 +1955,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 歪んだ木材・銀
-    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS2 = BLOCKS.register("compressed_warped_planks2", () -> new Block(AbstractBlock.Properties
+    // 鉄ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_IRON2 = BLOCKS.register("compressed_iron2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2060,8 +1967,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 歪んだ木材・金
-    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS3 = BLOCKS.register("compressed_warped_planks3", () -> new Block(AbstractBlock.Properties
+    // 鉄ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_IRON3 = BLOCKS.register("compressed_iron3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2072,8 +1979,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 歪んだ木材・白金
-    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS4 = BLOCKS.register("compressed_warped_planks4", () -> new Block(AbstractBlock.Properties
+    // 鉄ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_IRON4 = BLOCKS.register("compressed_iron4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2084,8 +1991,374 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 歪んだ木材・黒
-    public static final RegistryObject<Block> COMPRESSED_WARPED_PLANKS5 = BLOCKS.register("compressed_warped_planks5", () -> new Block(AbstractBlock.Properties
+    // 鉄ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_IRON5 = BLOCKS.register("compressed_iron5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 黒曜石・銅
+    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN1 = BLOCKS.register("compressed_obsidian1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 黒曜石・銀
+    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN2 = BLOCKS.register("compressed_obsidian2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 黒曜石・金
+    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN3 = BLOCKS.register("compressed_obsidian3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 黒曜石・白金
+    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN4 = BLOCKS.register("compressed_obsidian4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 黒曜石・黒
+    public static final RegistryObject<Block> COMPRESSED_OBSIDIAN5 = BLOCKS.register("compressed_obsidian5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // ダイヤブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_DIAMOND1 = BLOCKS.register("compressed_diamond1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダイヤブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_DIAMOND2 = BLOCKS.register("compressed_diamond2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダイヤブロック・金
+    public static final RegistryObject<Block> COMPRESSED_DIAMOND3 = BLOCKS.register("compressed_diamond3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダイヤブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_DIAMOND4 = BLOCKS.register("compressed_diamond4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ダイヤブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_DIAMOND5 = BLOCKS.register("compressed_diamond5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // ネザーラック・銅
+    public static final RegistryObject<Block> COMPRESSED_NETHERRACK1 = BLOCKS.register("compressed_netherrack1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ネザーラック・銀
+    public static final RegistryObject<Block> COMPRESSED_NETHERRACK2 = BLOCKS.register("compressed_netherrack2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ネザーラック・金
+    public static final RegistryObject<Block> COMPRESSED_NETHERRACK3 = BLOCKS.register("compressed_netherrack3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ネザーラック・白金
+    public static final RegistryObject<Block> COMPRESSED_NETHERRACK4 = BLOCKS.register("compressed_netherrack4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // ネザーラック・黒
+    public static final RegistryObject<Block> COMPRESSED_NETHERRACK5 = BLOCKS.register("compressed_netherrack5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // クォーツブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_QUARTZ1 = BLOCKS.register("compressed_quartz1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // クォーツブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_QUARTZ2 = BLOCKS.register("compressed_quartz2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // クォーツブロック・金
+    public static final RegistryObject<Block> COMPRESSED_QUARTZ3 = BLOCKS.register("compressed_quartz3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // クォーツブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_QUARTZ4 = BLOCKS.register("compressed_quartz4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // クォーツブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_QUARTZ5 = BLOCKS.register("compressed_quartz5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 石炭ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_COAL1 = BLOCKS.register("compressed_coal1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 石炭ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_COAL2 = BLOCKS.register("compressed_coal2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 石炭ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_COAL3 = BLOCKS.register("compressed_coal3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 石炭ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_COAL4 = BLOCKS.register("compressed_coal4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 石炭ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_COAL5 = BLOCKS.register("compressed_coal5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 木炭ブロック・銅
+    public static final RegistryObject<Block> COMPRESSED_CHARCOAL1 = BLOCKS.register("compressed_charcoal1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 木炭ブロック・銀
+    public static final RegistryObject<Block> COMPRESSED_CHARCOAL2 = BLOCKS.register("compressed_charcoal2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 木炭ブロック・金
+    public static final RegistryObject<Block> COMPRESSED_CHARCOAL3 = BLOCKS.register("compressed_charcoal3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 木炭ブロック・白金
+    public static final RegistryObject<Block> COMPRESSED_CHARCOAL4 = BLOCKS.register("compressed_charcoal4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 木炭ブロック・黒
+    public static final RegistryObject<Block> COMPRESSED_CHARCOAL5 = BLOCKS.register("compressed_charcoal5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2147,6 +2420,128 @@ public class Blocks {
     ));
     // 俵・黒
     public static final RegistryObject<Block> COMPRESSED_HAY_BLOCK5 = BLOCKS.register("compressed_hay_block5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 種・銅
+    public static final RegistryObject<Block> COMPRESSED_SEEDS1 = BLOCKS.register("compressed_seeds1", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 種・銀
+    public static final RegistryObject<Block> COMPRESSED_SEEDS2 = BLOCKS.register("compressed_seeds2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 種・金
+    public static final RegistryObject<Block> COMPRESSED_SEEDS3 = BLOCKS.register("compressed_seeds3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 種・白金
+    public static final RegistryObject<Block> COMPRESSED_SEEDS4 = BLOCKS.register("compressed_seeds4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 種・黒
+    public static final RegistryObject<Block> COMPRESSED_SEEDS5 = BLOCKS.register("compressed_seeds5", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+
+    // 火打石・銅
+    public static final RegistryObject<Block> COMPRESSED_FLINT1 = BLOCKS.register("compressed_flint1", () -> new Block((Properties) ((Object) AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1))
+    ));
+    // 火打石・銀
+    public static final RegistryObject<Block> COMPRESSED_FLINT2 = BLOCKS.register("compressed_flint2", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 火打石・金
+    public static final RegistryObject<Block> COMPRESSED_FLINT3 = BLOCKS.register("compressed_flint3", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 火打石・白金
+    public static final RegistryObject<Block> COMPRESSED_FLINT4 = BLOCKS.register("compressed_flint4", () -> new Block(AbstractBlock.Properties
+            .create(Material.GLASS)
+            .setRequiresTool()
+            .hardnessAndResistance(0.5F, 30.0F)
+            .sound(SoundType.NETHER_BRICK)
+            .harvestTool(ToolType.SHOVEL)
+            .harvestTool(ToolType.PICKAXE)
+            .harvestTool(ToolType.AXE)
+            .harvestTool(ToolType.HOE)
+            .harvestLevel(1)
+    ));
+    // 火打石・黒
+    public static final RegistryObject<Block> COMPRESSED_FLINT5 = BLOCKS.register("compressed_flint5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2234,8 +2629,8 @@ public class Blocks {
             })
     ));
 
-    // 火打石・銅
-    public static final RegistryObject<Block> COMPRESSED_FLINT1 = BLOCKS.register("compressed_flint1", () -> new Block(AbstractBlock.Properties
+    // さとうきび・銅
+    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE1 = BLOCKS.register("compressed_sugar_cane1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2246,8 +2641,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 火打石・銀
-    public static final RegistryObject<Block> COMPRESSED_FLINT2 = BLOCKS.register("compressed_flint2", () -> new Block(AbstractBlock.Properties
+    // さとうきび・銀
+    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE2 = BLOCKS.register("compressed_sugar_cane2", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2258,8 +2653,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 火打石・金
-    public static final RegistryObject<Block> COMPRESSED_FLINT3 = BLOCKS.register("compressed_flint3", () -> new Block(AbstractBlock.Properties
+    // さとうきび・金
+    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE3 = BLOCKS.register("compressed_sugar_cane3", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2270,8 +2665,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 火打石・白金
-    public static final RegistryObject<Block> COMPRESSED_FLINT4 = BLOCKS.register("compressed_flint4", () -> new Block(AbstractBlock.Properties
+    // さとうきび・白金
+    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE4 = BLOCKS.register("compressed_sugar_cane4", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2282,8 +2677,8 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-    // 火打石・黒
-    public static final RegistryObject<Block> COMPRESSED_FLINT5 = BLOCKS.register("compressed_flint5", () -> new Block(AbstractBlock.Properties
+    // さとうきび・黒
+    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE5 = BLOCKS.register("compressed_sugar_cane5", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
             .setRequiresTool()
             .hardnessAndResistance(0.5F, 30.0F)
@@ -2355,68 +2750,7 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-
-    // 種・銅
-    public static final RegistryObject<Block> COMPRESSED_SEEDS1 = BLOCKS.register("compressed_seeds1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 種・銀
-    public static final RegistryObject<Block> COMPRESSED_SEEDS2 = BLOCKS.register("compressed_seeds2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 種・金
-    public static final RegistryObject<Block> COMPRESSED_SEEDS3 = BLOCKS.register("compressed_seeds3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 種・白金
-    public static final RegistryObject<Block> COMPRESSED_SEEDS4 = BLOCKS.register("compressed_seeds4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // 種・黒
-    public static final RegistryObject<Block> COMPRESSED_SEEDS5 = BLOCKS.register("compressed_seeds5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
+    
     // POT-8・銅
     public static final RegistryObject<Block> COMPRESSED_POTATO1 = BLOCKS.register("compressed_potato1", () -> new Block(AbstractBlock.Properties
             .create(Material.GLASS)
@@ -2538,130 +2872,7 @@ public class Blocks {
             .harvestTool(ToolType.HOE)
             .harvestLevel(1)
     ));
-
-    // さとうきび・銅
-    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE1 = BLOCKS.register("compressed_sugar_cane1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // さとうきび・銀
-    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE2 = BLOCKS.register("compressed_sugar_cane2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // さとうきび・金
-    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE3 = BLOCKS.register("compressed_sugar_cane3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // さとうきび・白金
-    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE4 = BLOCKS.register("compressed_sugar_cane4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // さとうきび・黒
-    public static final RegistryObject<Block> COMPRESSED_SUGAR_CANE5 = BLOCKS.register("compressed_sugar_cane5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-    // ネザーラック・銅
-    public static final RegistryObject<Block> COMPRESSED_NETHERRACK1 = BLOCKS.register("compressed_netherrack1", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ネザーラック・銀
-    public static final RegistryObject<Block> COMPRESSED_NETHERRACK2 = BLOCKS.register("compressed_netherrack2", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ネザーラック・金
-    public static final RegistryObject<Block> COMPRESSED_NETHERRACK3 = BLOCKS.register("compressed_netherrack3", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ネザーラック・白金
-    public static final RegistryObject<Block> COMPRESSED_NETHERRACK4 = BLOCKS.register("compressed_netherrack4", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-    // ネザーラック・黒
-    public static final RegistryObject<Block> COMPRESSED_NETHERRACK5 = BLOCKS.register("compressed_netherrack5", () -> new Block(AbstractBlock.Properties
-            .create(Material.GLASS)
-            .setRequiresTool()
-            .hardnessAndResistance(0.5F, 30.0F)
-            .sound(SoundType.NETHER_BRICK)
-            .harvestTool(ToolType.SHOVEL)
-            .harvestTool(ToolType.PICKAXE)
-            .harvestTool(ToolType.AXE)
-            .harvestTool(ToolType.HOE)
-            .harvestLevel(1)
-    ));
-
-
+    
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }

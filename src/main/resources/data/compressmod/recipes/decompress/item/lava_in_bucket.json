@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "F",
+        "B"
+    ],
+    "key": {
+        "F": { "item": "compressmod:lava" },
+        "B": { "item": "minecraft:bucket" }
+    },
+    "result": {
+        "item": "minecraft:lava_bucket"
+    }
+}

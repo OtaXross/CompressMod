@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "group": "compressed_sands",
+    "key": {
+        "#": { "item": "red_sand" }
+    },
+    "result": {
+        "item": "compressmod:compressed_red_sand1"
+    }
+}

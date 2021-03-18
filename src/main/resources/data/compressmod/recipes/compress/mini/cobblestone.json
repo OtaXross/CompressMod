@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "mini_compress",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "cobblestone"
+        }
+    },
+    "result": {
+        "item": "compressmod:mini_compressed_cobblestone"
+    }
+}

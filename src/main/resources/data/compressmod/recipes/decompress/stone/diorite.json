@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "decompress_stones",
+    "ingredients": [
+        {
+            "item": "compressmod:compressed_diorite1"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diorite",
+        "count": 9
+    }
+}

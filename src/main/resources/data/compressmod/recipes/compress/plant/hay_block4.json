@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "group": "compressed_plants",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": { "#": { "item": "compressmod:compressed_hay_block3" } },
+    "result": {
+        "item": "compressmod:compressed_hay_block4"
+    }
+}

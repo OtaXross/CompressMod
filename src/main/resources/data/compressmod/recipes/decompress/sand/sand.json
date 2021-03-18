@@ -1,0 +1,8 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decompress_sands",
+    "ingredients": [{"item": "compressmod:compressed_sand1"}],
+    "result": {
+        "item": "sand"
+    }
+}

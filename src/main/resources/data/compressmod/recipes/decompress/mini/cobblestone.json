@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "group": "mini_decompress",
+    "ingredients": [
+        {
+            "item": "compressmod:mini_compressed_cobblestone"
+        }
+    ],
+    "result": {
+        "item": "cobblestone"
+    }
+}

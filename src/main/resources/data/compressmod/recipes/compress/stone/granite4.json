@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_stones",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compressmod:compressed_granite3"
+        }
+    },
+    "result": {
+        "item": "compressmod:compressed_granite4"
+    }
+}

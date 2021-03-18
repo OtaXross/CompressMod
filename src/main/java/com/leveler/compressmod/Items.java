@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import com.leveler.compressmod.burn_times.CCBBT;
 import com.leveler.compressmod.burn_times.LavaBucket;
+import com.leveler.compressmod.burn_times.LavaItem;
 import com.leveler.compressmod.burn_times.Logs1;
 import com.leveler.compressmod.burn_times.Logs2;
 import com.leveler.compressmod.burn_times.Logs3;
@@ -30,6 +31,8 @@ public class Items extends CompressMod {
         // 木炭ブロック追加
         public static final RegistryObject<Item> CCBBT = ITEMS.register("charcoal_block",() -> new CCBBT(Blocks.CHARCOAL_BLOCK.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
+        // 溶岩そのもの
+        public static final RegistryObject<Item> LAVA = ITEMS.register("lava", () -> new LavaItem(new Item.Properties().group(COMPRESSED_BLOCKS)));
 
         // 焼石
         public static final RegistryObject<Item> COMPRESSED_STONE1 = ITEMS.register("compressed_stone1", () -> new BlockItem(Blocks.COMPRESSED_STONE1.get(), (new Item.Properties())
@@ -72,6 +75,8 @@ public class Items extends CompressMod {
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_ANDESITE5 = ITEMS.register("compressed_andesite5", () -> new BlockItem(Blocks.COMPRESSED_ANDESITE5.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> MINI_COMPRESSED_GRASS = ITEMS.register("mini_compressed_grass", () -> new BlockItem(Blocks.MINI_COMPRESSED_GRASS.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));        
         public static final RegistryObject<Item> COMPRESSED_GRASS1 = ITEMS.register("compressed_grass1", () -> new BlockItem(Blocks.COMPRESSED_GRASS1.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_GRASS2 = ITEMS.register("compressed_grass2", () -> new BlockItem(Blocks.COMPRESSED_GRASS2.get(), (new Item.Properties())
@@ -82,6 +87,8 @@ public class Items extends CompressMod {
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_GRASS5 = ITEMS.register("compressed_grass5", () -> new BlockItem(Blocks.COMPRESSED_GRASS5.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> MINI_COMPRESSED_DIRT = ITEMS.register("mini_compressed_dirt", () -> new BlockItem(Blocks.MINI_COMPRESSED_DIRT.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_DIRT1 = ITEMS.register("compressed_dirt1", () -> new BlockItem(Blocks.COMPRESSED_DIRT1.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_DIRT2 = ITEMS.register("compressed_dirt2", () -> new BlockItem(Blocks.COMPRESSED_DIRT2.get(), (new Item.Properties())
@@ -91,6 +98,8 @@ public class Items extends CompressMod {
         public static final RegistryObject<Item> COMPRESSED_DIRT4 = ITEMS.register("compressed_dirt4", () -> new BlockItem(Blocks.COMPRESSED_DIRT4.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_DIRT5 = ITEMS.register("compressed_dirt5", () -> new BlockItem(Blocks.COMPRESSED_DIRT5.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> MINI_COMPRESSED_COBBLESTONE = ITEMS.register("mini_compressed_cobblestone", () -> new BlockItem(Blocks.MINI_COMPRESSED_COBBLESTONE.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_COBBLESTONE1 = ITEMS.register("compressed_cobblestone1", () -> new BlockItem(Blocks.COMPRESSED_COBBLESTONE1.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
@@ -181,6 +190,27 @@ public class Items extends CompressMod {
         public static final RegistryObject<Item> COMPRESSED_WARPED_PLANKS4 = ITEMS.register("compressed_warped_planks4", () -> new BlockItem(Blocks.COMPRESSED_WARPED_PLANKS4.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_WARPED_PLANKS5 = ITEMS.register("compressed_warped_planks5", () -> new BlockItem(Blocks.COMPRESSED_WARPED_PLANKS5.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_SAND1 = ITEMS.register("compressed_sand1", () -> new BlockItem(Blocks.COMPRESSED_SAND1.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_SAND2 = ITEMS.register("compressed_sand2", () -> new BlockItem(Blocks.COMPRESSED_SAND2.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_SAND3 = ITEMS.register("compressed_sand3", () -> new BlockItem(Blocks.COMPRESSED_SAND3.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_SAND4 = ITEMS.register("compressed_sand4", () -> new BlockItem(Blocks.COMPRESSED_SAND4.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_SAND5 = ITEMS.register("compressed_sand5", () -> new BlockItem(Blocks.COMPRESSED_SAND5.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        
+        public static final RegistryObject<Item> COMPRESSED_RED_SAND1 = ITEMS.register("compressed_red_sand1", () -> new BlockItem(Blocks.COMPRESSED_RED_SAND1.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_RED_SAND2 = ITEMS.register("compressed_red_sand2", () -> new BlockItem(Blocks.COMPRESSED_RED_SAND2.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_RED_SAND3 = ITEMS.register("compressed_red_sand3", () -> new BlockItem(Blocks.COMPRESSED_RED_SAND3.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_RED_SAND4 = ITEMS.register("compressed_red_sand4", () -> new BlockItem(Blocks.COMPRESSED_RED_SAND4.get(), (new Item.Properties())
+                .group(COMPRESSED_BLOCKS)));
+        public static final RegistryObject<Item> COMPRESSED_RED_SAND5 = ITEMS.register("compressed_red_sand5", () -> new BlockItem(Blocks.COMPRESSED_RED_SAND5.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));
         public static final RegistryObject<Item> COMPRESSED_GRAVEL1 = ITEMS.register("compressed_gravel1", () -> new BlockItem(Blocks.COMPRESSED_GRAVEL1.get(), (new Item.Properties())
                 .group(COMPRESSED_BLOCKS)));

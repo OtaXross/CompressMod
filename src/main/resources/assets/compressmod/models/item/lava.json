@@ -1,0 +1,21 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"lava": "block/lava_still",
+		"particle": "block/lava_still"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 14, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#lava"},
+				"east": {"uv": [0, 0, 16, 14], "texture": "#lava"},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#lava"},
+				"west": {"uv": [0, 0, 16, 14], "texture": "#lava"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#lava"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#lava"}
+			}
+		}
+	]
+}
